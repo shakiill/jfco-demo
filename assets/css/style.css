@@ -526,9 +526,11 @@ a:hover, a:focus {
     margin: 0;
     list-style-type: none
 }
+
 .navbar {
     padding: 0;
 }
+
 .induxtro-nav nav .navbar-nav .nav-item {
     position: relative;
     padding: 15px 0
@@ -6333,7 +6335,8 @@ a:hover, a:focus {
     -webkit-transition: .5s;
     transition: .5s;
     -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1);
-    box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1)
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1);
+    margin-bottom: 20px;
 }
 
 .contact-box .icon {
@@ -6668,4 +6671,10 @@ a:hover, a:focus {
 .go-top:hover {
     color: #fff;
     background: #0d1028
+}
+
+.custom-bar {
+    height: 2px;
+    width: 70px;
+    background: #2d08fd;
 }
