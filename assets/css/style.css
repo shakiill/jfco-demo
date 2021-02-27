@@ -1433,13 +1433,13 @@ a:hover, a:focus {
 .about-content ul {
     padding: 0;
     margin: 25px 0 10px;
-    list-style-type: none;
-    overflow: hidden
+    list-style-type: square;
+    margin-left: 40px;
 }
 
 .about-content ul li {
-    float: left;
-    width: 45%;
+    /*float: left;*/
+    /*width: 45%;*/
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 10px
