@@ -11,9 +11,10 @@ body {
 p {
     font-family: open sans, sans-serif;
     font-size: 15px;
-    color: #828893;
+    color: #000;
     line-height: 1.9;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    text-align: justify;
 }
 
 p:last-child {
@@ -1474,6 +1475,7 @@ a:hover, a:focus {
 .about-funfacts p {
     color: #13007d;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .about-features {
